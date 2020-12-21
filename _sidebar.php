@@ -7,58 +7,66 @@
                   <li><a href="index.php"><i class="fa fa-home"></i> Home </span></a></li>
                   <li><a><i class="fa fa-users"></i> Usuários <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="#">Cadastrar usuários</a></li>
-                      <li><a href="#">Listar usuários</a></li>
-                      <li><a href="#">Adicionar setores</a></li>
-                      <li><a href="#">Listar setores</a></li>
+                      <li><a href="_cadastrar-usuario.php">Cadastrar usuários</a></li>
+                      <li><a href="_listar-usuario.php">Listar usuários</a></li>
+                      <li><a href="_cadastrar-setor.php">Adicionar setores</a></li>
+                      <li><a href="_listar-setor.php">Listar setores</a></li>
                     </ul>
                   </li>
                   <li><a><i class="fa fa-users"></i> Clientes <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="cadastrar-cliente.php">Cadastrar cliente</a></li>
-                      <li><a href="#">Listar clientes</a></li>
+                      <li><a href="_cadastrar-cliente.php">Cadastrar cliente</a></li>
+                      <li><a href="_listar-cliente.php">Listar clientes</a></li>
                      
                     </ul>
                   </li>
-                  <li><a><i class="fa fa-edit"></i>Requesições de exames <span class="fa fa-chevron-down"></span></a>
+                   <li><a><i class="fa fa-hospital-o"></i> Clinicas <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="#">Listar requesições</a></li>
-                      <li><a href="#">Confirmar requesições</a></li>
-                      <li><a href="#">Upload de resultado / laudo</a></li>
+                      <li><a href="_cadastrar-clinicas.php">Cadastrar clínicas</a></li>
+                      <li><a href="_listar-clinicas.php">Listar clínicas</a></li>
+                     
+                    </ul>
+                  </li>
+                  <li><a><i class="fa fa-edit"></i>Requisições de exames <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="_cadastrar-requisicao.php">Cadastrar requisições</a></li>
+                      <li><a href="_listar-requisicao.php">Listar requisições</a></li>
+                     
                     </ul>
                   </li>
                   <li><a><i class="fa fa-calendar"></i> Agendamentos <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="#">Listar agendamentos</a></li>
-                      <li><a href="#">Confirmar agendamentos</a></li>
+                      <li><a href="_listar-agendamento.php">Listar agendamentos</a></li>
+                     
                     </ul>
                   </li>
                   <li><a><i class="fa fa-user"></i> Prestadores <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                     <li><a href="#">Listar prestadores</a></li>
-                     <li><a href="#">Adicionar prestador</a></li>
-                     <li><a href="#">Deletar prestador</a></li>
+                     <li><a href="_cadastrar-prestador.php">Adicionar prestador</a></li>
+                     <li><a href="_listar-prestadores.php">Listar prestadores</a></li>
+                     
+                     
                     </ul>
                   </li>
                   <li><a><i class="fa fa-file-text-o"></i> Tipos de exames <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                     <li><a href="#">Listar tipos de serviço</a></li>
-                     <li><a href="#">Adicionar tipo de exame</a></li>
-                     <li><a href="#">Deletar tipo de exame</a></li>
+                     
+                     <li><a href="_cadastrar-tipo-exame.php">Adicionar tipo de exame</a></li>
+                    <li><a href="_listar-tipo-exame.php">Listar tipos de exames</a></li>
                     </ul>
                   </li>
                   <li><a><i class="fa fa-file-text-o"></i> Tipos de consultas <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="#">Listar consulta</a></li>
-                      <li><a href="#">Adicionar tipo de consulta</a></li>
-                      <li><a href="#">Deletar tipo de consulta</a></li>
+                      
+                      <li><a href="_cadastrar-consulta.php">Adicionar tipo de consulta</a></li>
+                     <li><a href="_listar-consulta.php">Listar consulta</a></li>
                     </ul>
                   </li>
                   <li><a><i class="fa fa-usd"></i> Ordens de pagamento <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="#">Listar ordens de pagamento</a></li>
-                      <li><a href="#">Adicionar ordens de pagamento</a></li>
-                      <li><a href="#">Listar status de pagamentos</a></li>
+                      <li><a href="_listar-comprovante-pagamento.php">Listar ordens de pagamento</a></li>
+                      <li><a href="_cadastrar-ordem-pagamento.php">Adicionar ordens de pagamento</a></li>
+                     
                     </ul>
                   </li>
                   <li><a><i class="fa fa-bar-chart-o"></i> Relatórios <span class="fa fa-chevron-down"></span></a>

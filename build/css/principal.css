@@ -2,3 +2,38 @@ article.media {
     width: 100%;
     margin-bottom: 5px;
 }
+
+.right-icons{
+	text-align: right !important;
+}
+
+.right-icons i{
+	font-size: 20px;
+	margin-right: 10px;
+}
+
+#visualizar-requisicao h1 span{
+	display: block;
+	font-size: 20px;
+	color: #cb251e;
+}
+
+#visualizar-requisicao h3{
+	font-weight: bold;
+	color: #b01419;
+}
+
+#visualizar-requisicao h5 span{
+	display: block;
+	font-size: 11px;
+	text-transform: uppercase;
+	color: #666;
+}
+
+/*CSS para impressão*/
+@media print {
+
+	.top_nav,.title_left,.btn, footer{
+		display: none !important;
+	}
+}
