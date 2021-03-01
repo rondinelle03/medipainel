@@ -5,19 +5,57 @@
           <div class="">
             <div class="row" >
             
-              <a href="#" class="animated flipInY col-lg-6 col-md-6 col-sm-6 ">
+              <a href="#" class="animated flipInY col-md-4 col-sm-6 ">
                 <div class="tile-stats">
                   <div class="icon"><i class="fa fa-group"></i></div>
                   <div class="count">179</div>
-                  <h3>Clientes</h3>
+                  <h3>Adcionar Clientes</h3>
                  
                 </div>
               </a>
-              <a href="#" class="animated flipInY col-lg-6 col-md-6 col-sm-6 ">
+              <a href="#" class="animated flipInY col-md-4 col-sm-6 ">
                 <div class="tile-stats">
-                  <div class="icon"><i class="fa fa-cubes"></i></div>
-                  <div class="count">179</div>
-                  <h3>Produtos</h3>
+                  <div class="icon"><i class="fa fa-hospital-o"></i></div>
+                  <div class="count">90</div>
+                  <h3>Adcionar Clínicas</h3>
+                 
+                </div>
+              </a>
+
+              <a href="#" class="animated flipInY col-md-4 col-sm-6 ">
+                <div class="tile-stats">
+                  <div class="icon"><i class="fa fa-user"></i></div>
+                  <div class="count">30</div>
+                  <h3>Adcionar Prestadores</h3>
+                 
+                </div>
+              </a>
+            </div>
+           <div class="row" >
+
+              <a href="#" class="animated flipInY col-md-4 col-sm-6 ">
+                <div class="tile-stats">
+                  <div class="icon"><i class="fa fa-file-text-o"></i></div>
+                  <div class="count">80</div>
+                  <h3>Adcionar Tipos de Exames</h3>
+                 
+                </div>
+              </a>
+
+
+              <a href="#" class="animated flipInY col-md-4 col-sm-6 ">
+                <div class="tile-stats">
+                  <div class="icon"><i class="fa fa-file-text-o"></i></div>
+                  <div class="count">25</div>
+                  <h3>Adcionar Tipos de Consultas</h3>
+                 
+                </div>
+              </a>
+              <a href="#" class="animated flipInY col-md-4 col-sm-6 ">
+                <div class="tile-stats">
+                  <div class="icon"><i class="fa fa-usd"></i></div>
+                  <div class="count">279</div>
+                  <h3>Adcionar Ordens de Pagamentos</h3>
                  
                 </div>
               </a>
@@ -33,154 +71,148 @@
 
             <div class="row">
               <div class="col-md-6">
-                <div class="x_panel">
+                  <div class="x_panel">
                   <div class="x_title">
-                    <h2>Aniversáriantes do Mês</h2>
+                    <h2>Requesições cadastradas</h2>
                    
                     <div class="clearfix"></div>
                   </div>
                   <div class="x_content">
-                    <article class="media event">
-                      <a class="pull-left date">
-                        <p class="month">April</p>
-                        <p class="day">01</p>
-                      </a>
-                      <div class="media-body">
-                        <a class="title" href="#">Lorena Brito</a>
-                        <p>Lagoa Seca - Natal/RN - 84.9885.1517</p>
-                      </div>
-                    </article>
-                     <article class="media event">
-                      <a class="pull-left date">
-                        <p class="month">April</p>
-                        <p class="day">02</p>
-                      </a>
-                      <div class="media-body">
-                        <a class="title" href="#">Lorena Brito</a>
-                        <p>Lagoa Seca - Natal/RN - 84.9885.1517</p>
-                      </div>
-                    </article>
-                     <article class="media event">
-                      <a class="pull-left date">
-                        <p class="month">April</p>
-                        <p class="day">03</p>
-                      </a>
-                      <div class="media-body">
-                        <a class="title" href="#">Lorena Brito</a>
-                        <p>Lagoa Seca - Natal/RN - 84.9885.1517</p>
-                      </div>
-                    </article>
-                     <article class="media event">
-                      <a class="pull-left date">
-                        <p class="month">April</p>
-                        <p class="day">04</p>
-                      </a>
-                      <div class="media-body">
-                        <a class="title" href="#">Lorena Brito</a>
-                        <p>Lagoa Seca - Natal/RN - 84.9885.1517</p>
-                      </div>
-                    </article>
-                     <article class="media event">
-                      <a class="pull-left date">
-                        <p class="month">April</p>
-                        <p class="day">05</p>
-                      </a>
-                      <div class="media-body">
-                        <a class="title" href="#">Lorena Brito</a>
-                        <p>Lagoa Seca - Natal/RN - 84.9885.1517</p>
-                      </div>
-                    </article>
-                     <article class="media event">
-                      <a class="pull-left date">
-                        <p class="month">April</p>
-                        <p class="day">06</p>
-                      </a>
-                      <div class="media-body">
-                        <a class="title" href="#">Lorena Brito</a>
-                        <p>Lagoa Seca - Natal/RN - 84.9885.1517</p>
-                      </div>
-                    </article>
-                   
+                      <div class="row">
+                          <div class="col-sm-12">
+                            <div class="card-box table-responsive">
+                  
+          
+                    <table  class="table table-striped table-bordered dt-responsive nowrap" cellspacing="0" width="100%">
+                      <thead>
+                        <tr>
+                         
+                          <th>Número</th>
+                          <th>Cliente</th>
+                          <th>Clínica</th>
+                          <th>Status</th>                      
+                          <th class="right-icons">Ações</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>001</td> 
+                          <td>Lucas Fonseca da Luz</td>
+                          <td>Clínica 01</td>
+                          <td><button type="button" class="btn btn-success btn-sm">Confirmado</button></td>                        
+                          <td class="right-icons"><a href="_visualizar.php" title="Visualizar"><i class="fa fa-file-text-o"></i></a> <a href="" title="Editar"><i class="fa fa-pencil-square-o"></i></a> <a href="" title="Deletar"><i class="fa fa-trash"></i></a></td>
+                        </tr>
+                        <tr>
+                          <td>002</td> 
+                          <td>Lucas Fonseca da Luz</td>
+                          <td>Clínica 01</td>
+                          <td><button type="button" class="btn btn-warning btn-sm">Aguardando</button></td>                        
+                          <td class="right-icons"><a href="_visualizar.php" title="Visualizar"><i class="fa fa-file-text-o"></i></a> <a href="" title="Editar"><i class="fa fa-pencil-square-o"></i></a> <a href="" title="Deletar"><i class="fa fa-trash"></i></a></td>
+                        </tr>
+                         <tr>
+                          <td>001</td> 
+                          <td>Lucas Fonseca da Luz</td>
+                          <td>Clínica 01</td>
+                          <td><button type="button" class="btn btn-success btn-sm">Confirmado</button></td>                        
+                          <td class="right-icons"><a href="_visualizar.php" title="Visualizar"><i class="fa fa-file-text-o"></i></a> <a href="" title="Editar"><i class="fa fa-pencil-square-o"></i></a> <a href="" title="Deletar"><i class="fa fa-trash"></i></a></td>
+                        </tr>
+                        <tr>
+                          <td>002</td> 
+                          <td>Lucas Fonseca da Luz</td>
+                          <td>Clínica 01</td>
+                          <td><button type="button" class="btn btn-warning btn-sm">Aguardando</button></td>                        
+                          <td class="right-icons"><a href="_visualizar.php" title="Visualizar"><i class="fa fa-file-text-o"></i></a> <a href="" title="Editar"><i class="fa fa-pencil-square-o"></i></a> <a href="" title="Deletar"><i class="fa fa-trash"></i></a></td>
+                        </tr>
+                         <tr>
+                          <td>001</td> 
+                          <td>Lucas Fonseca da Luz</td>
+                          <td>Clínica 01</td>
+                          <td><button type="button" class="btn btn-success btn-sm">Confirmado</button></td>                        
+                          <td class="right-icons"><a href="_visualizar.php" title="Visualizar"><i class="fa fa-file-text-o"></i></a> <a href="" title="Editar"><i class="fa fa-pencil-square-o"></i></a> <a href="" title="Deletar"><i class="fa fa-trash"></i></a></td>
+                        </tr>
+                    
+                      
+                        
+                      </tbody>
+                    </table>
+          
+          
                   </div>
+                </div>
+              </div>
+            </div>
                 </div>
               </div>
 
               <div class="col-md-6">
                 <div class="x_panel">
                   <div class="x_title">
-                          <h2>Últimas vendas</h2>
-                          <ul class="nav navbar-right panel_toolbox">
-                            <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
-                            </li>
-                            <li class="dropdown">
-                              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
-                              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                  <a class="dropdown-item" href="#">Settings 1</a>
-                                  <a class="dropdown-item" href="#">Settings 2</a>
-                                </div>
-                            </li>
-                            <li><a class="close-link"><i class="fa fa-close"></i></a>
-                            </li>
-                          </ul>
+                          <h2>Agendamentos</h2>
+                        
                           <div class="clearfix"></div>
                         </div>
-                        <ul class="list-unstyled top_profiles scroll-view">
-                          <li class="media event">
-                            <a class="pull-left border-aero profile_thumb">
-                              <i class="fa fa-user aero"></i>
-                            </a>
-                            <div class="media-body">
-                              <a class="title" href="#">Ms. Mary Jane</a>
-                              <p><strong>R$ 200,00 </strong>  </p>
-                              <p> <small>14/10/2020</small>
-                              </p>
-                            </div>
-                          </li>
-                          <li class="media event">
-                            <a class="pull-left border-green profile_thumb">
-                              <i class="fa fa-user green"></i>
-                            </a>
-                            <div class="media-body">
-                              <a class="title" href="#">Ms. Mary Jane</a>
-                              <p><strong>R$ 200,00 </strong>  </p>
-                              <p> <small>14/10/2020</small>
-                              </p>
-                            </div>
-                          </li>
-                          <li class="media event">
-                            <a class="pull-left border-blue profile_thumb">
-                              <i class="fa fa-user blue"></i>
-                            </a>
-                            <div class="media-body">
-                             <a class="title" href="#">Ms. Mary Jane</a>
-                              <p><strong>R$ 200,00 </strong>  </p>
-                              <p> <small>14/10/2020</small>
-                              </p>
-                            </div>
-                          </li>
-                          <li class="media event">
-                            <a class="pull-left border-aero profile_thumb">
-                              <i class="fa fa-user aero"></i>
-                            </a>
-                            <div class="media-body">
-                              <a class="title" href="#">Ms. Mary Jane</a>
-                              <p><strong>R$ 200,00 </strong>  </p>
-                              <p> <small>14/10/2020</small>
-                              </p>
-                            </div>
-                          </li>
-                          <li class="media event">
-                            <a class="pull-left border-green profile_thumb">
-                              <i class="fa fa-user green"></i>
-                            </a>
-                            <div class="media-body">
-                             <a class="title" href="#">Ms. Mary Jane</a>
-                              <p><strong>R$ 200,00 </strong>  </p>
-                              <p> <small>14/10/2020</small>
-                              </p>
-                            </div>
-                          </li>
-                        </ul>
+                       <table  class="table table-striped table-bordered dt-responsive nowrap" cellspacing="0" width="100%">
+                      <thead>
+                        <tr>
+                         
+                          <th>Número</th>
+                          <th>Cliente</th>
+                          <th>Data de Agendamento</th>
+                          <th>Clínica</th>
+                          <th>Exame</th>
+                          <th>Status</th>                      
+                          <th class="right-icons">Ações</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>001</td> 
+                          <td>Lucas Fonseca da Luz</td>
+                          <td>31.01.2021 | 16hs</td>
+                          <td>Clínica 01</td>
+                          <td>Densitometria Óssea</td>
+                          <td><button type="button" class="btn btn-success btn-sm">Confirmado</button></td>                        
+                          <td class="right-icons"><a href="_visualizar-agendamento.php" title="Visualizar"><i class="fa fa-file-text-o"></i></a> <a href="" title="Editar"><i class="fa fa-pencil-square-o"></i></a> <a href="" title="Deletar"><i class="fa fa-trash"></i></a></td>
+                        </tr>
+                        <tr>
+                          <td>002</td> 
+                          <td>Lucas Fonseca da Luz</td>
+                          <td>31.01.2021 | 16hs</td>
+                          <td>Clínica 01</td>
+                          <td>Densitometria Óssea</td>
+                          <td><button type="button" class="btn btn-warning btn-sm">Aguardando</button></td>                        
+                          <td class="right-icons"><a href="_visualizar-agendamento.php" title="Visualizar"><i class="fa fa-file-text-o"></i></a> <a href="" title="Editar"><i class="fa fa-pencil-square-o"></i></a> <a href="" title="Deletar"><i class="fa fa-trash"></i></a></td>
+                        </tr>
+                         <tr>
+                          <td>003</td> 
+                          <td>Lucas Fonseca da Luz</td>
+                          <td>31.01.2021 | 16hs</td>
+                          <td>Clínica 01</td>
+                          <td>Densitometria Óssea</td>
+                          <td><button type="button" class="btn btn-success btn-sm">Confirmado</button></td>                        
+                          <td class="right-icons"><a href="_visualizar-agendamento.php" title="Visualizar"><i class="fa fa-file-text-o"></i></a> <a href="" title="Editar"><i class="fa fa-pencil-square-o"></i></a> <a href="" title="Deletar"><i class="fa fa-trash"></i></a></td>
+                        </tr>
+                        <tr>
+                          <td>004</td> 
+                          <td>Lucas Fonseca da Luz</td>
+                          <td>31.01.2021 | 16hs</td>
+                          <td>Clínica 01</td>
+                          <td>Densitometria Óssea</td>
+                          <td><button type="button" class="btn btn-warning btn-sm">Aguardando</button></td>                        
+                          <td class="right-icons"><a href="_visualizar-agendamento.php" title="Visualizar"><i class="fa fa-file-text-o"></i></a> <a href="" title="Editar"><i class="fa fa-pencil-square-o"></i></a> <a href="" title="Deletar"><i class="fa fa-trash"></i></a></td>
+                        </tr>
+                         <tr>
+                          <td>005</td> 
+                          <td>Lucas Fonseca da Luz</td>
+                          <td>31.01.2021 | 16hs</td>
+                          <td>Clínica 01</td>
+                          <td>Densitometria Óssea</td>
+                          <td><button type="button" class="btn btn-success btn-sm">Confirmado</button></td>                        
+                          <td class="right-icons"><a href="_visualizar-agendamento.php" title="Visualizar"><i class="fa fa-file-text-o"></i></a> <a href="" title="Editar"><i class="fa fa-pencil-square-o"></i></a> <a href="" title="Deletar"><i class="fa fa-trash"></i></a></td>
+                        </tr>
+                       
+                      </tbody>
+                    </table>
                       </div>
               </div>
 

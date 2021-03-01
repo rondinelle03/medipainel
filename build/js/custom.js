@@ -2144,9 +2144,9 @@ function init_charts() {
         var lineChart = new Chart(ctx, {
             type: 'line',
             data: {
-                labels: ["January", "February", "March", "April", "May", "June", "July"],
+                labels: ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho"],
                 datasets: [{
-                    label: "My First dataset",
+                    label: "R$",
                     backgroundColor: "rgba(38, 185, 154, 0.31)",
                     borderColor: "rgba(38, 185, 154, 0.7)",
                     pointBorderColor: "rgba(38, 185, 154, 0.7)",
@@ -2154,37 +2154,87 @@ function init_charts() {
                     pointHoverBackgroundColor: "#fff",
                     pointHoverBorderColor: "rgba(220,220,220,1)",
                     pointBorderWidth: 1,
-                    data: [31, 74, 6, 39, 20, 85, 7]
-                }, {
-                    label: "My Second dataset",
-                    backgroundColor: "rgba(3, 88, 106, 0.3)",
-                    borderColor: "rgba(3, 88, 106, 0.70)",
-                    pointBorderColor: "rgba(3, 88, 106, 0.70)",
-                    pointBackgroundColor: "rgba(3, 88, 106, 0.70)",
-                    pointHoverBackgroundColor: "#fff",
-                    pointHoverBorderColor: "rgba(151,187,205,1)",
-                    pointBorderWidth: 1,
-                    data: [82, 23, 66, 9, 99, 4, 2]
+                    data: [10, 20, 6, 39, 20, 45, 7]
                 }]
             },
         });
 
     }
-
-    // Bar chart
+ 
+    // RELATÓRIO DE CLIENTES
 
     if ($('#mybarChart').length) {
 
         var ctx = document.getElementById("mybarChart");
         var mybarChart = new Chart(ctx, {
+
             type: 'bar',
             data: {
                 labels: ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"],
-                datasets: [ {
-                    label: 'R$',
-                    backgroundColor: "#03586A",
-                    data: [200, 600, 800, 100, 72, 34, 12]
-                }]
+               datasets: [
+                            { label: "Novos", backgroundColor: "#26B99A", data: [51, 30, 40, 28, 92, 50, 45] },
+                            { label: "Recorrentes", backgroundColor: "#e07b10", data: [41, 56, 25, 48, 72, 34, 12] },
+                        ],
+            },
+
+            options: {
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero: true
+                        }
+                    }]
+                }
+            }
+        });
+
+    }
+
+    // RELATÓRIO AGENDAMENTO
+
+    if ($('#relatorioAgendamento').length) {
+
+        var ctx = document.getElementById("relatorioAgendamento");
+        var mybarChart = new Chart(ctx, {
+
+            type: 'bar',
+            data: {
+                labels: ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"],
+               datasets: [
+                            { label: "Confirmados", backgroundColor: "#26B99A", data: [51, 30, 40, 28, 92, 50, 45] },
+                            { label: "Aguardando", backgroundColor: "#ffc107", data: [41, 56, 25, 48, 72, 34, 12] },
+                            { label: "Cancelados", backgroundColor: "#dc3545", data: [31, 46, 15, 38, 22, 4, 12] },
+                        ],
+            },
+
+            options: {
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero: true
+                        }
+                    }]
+                }
+            }
+        });
+
+    }
+
+
+    // RELATÓRIO REQUISIÇÃO
+
+    if ($('#relatorioRequisicao').length) {
+
+        var ctx = document.getElementById("relatorioRequisicao");
+        var mybarChart = new Chart(ctx, {
+
+            type: 'bar',
+            data: {
+                labels: ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"],
+               datasets: [
+                            { label: "Novos", backgroundColor: "#26B99A", data: [51, 30, 40, 28, 92, 50, 45] },
+                            { label: "Recorrentes", backgroundColor: "#e07b10", data: [41, 56, 25, 48, 72, 34, 12] },
+                        ],
             },
 
             options: {

@@ -69,18 +69,18 @@
                      
                     </ul>
                   </li>
-                  <li><a><i class="fa fa-bar-chart-o"></i> Relatórios <span class="fa fa-chevron-down"></span></a>
+                  <li><a ><i class="fa fa-bar-chart-o"></i> Relatórios <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="#">Listar ordens de pagamento</a></li>
-                      <li><a href="#">Adicionar ordens de pagamento</a></li>
-                      <li><a href="#">Listar status de pagamentos</a></li>
+                      <li><a href="_relatorios-clientes.php">Clientes</a></li>
+                      <li><a href="_relatorios-agendamento.php">Agendamento</a></li>
+                      <li><a href="_relatorios-requesicoes.php">Requesições</a></li>
                     </ul>
                   </li>
                   <li><a><i class="fa fa-bar-chart-o"></i> Financeiro / relatórios <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="#">Listar ordens de pagamento</a></li>
-                      <li><a href="#">Adicionar ordens de pagamento</a></li>
-                      <li><a href="#">Listar status de pagamentos</a></li>
+                      <li><a href="_listar-prestadores-relatorio.php">Prestadores</a></li>
+                      <li><a href="_relatorio-pagamento.php">Ordens de pagamento</a></li>
+                     
                     </ul>
                   </li>
                    
