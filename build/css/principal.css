@@ -30,6 +30,37 @@ article.media {
 	color: #666;
 }
 
+
+.site_title{
+	height: 116px;
+	background: url(../../images/MedimagemNova.svg) no-repeat center center;
+	background-size: contain;
+	width: 100%;
+}
+
+.nav_title{
+	background:#fff ;
+	height: 154px;
+}
+
+.nav-sm	.site_title{
+	height: 50px;
+	background: url(../../images/medi-mini.png) no-repeat center center;
+	background-size: contain;
+	width: 100%;
+}
+
+.nav-sm .nav_title{
+	background:#fff ;
+	height: 75px;
+}
+
+
+@media only screen and  (max-width:768px){
+
+
+}
+
 /*CSS para impressão*/
 @media print {
 
