@@ -1,230 +1,59 @@
-<?php include '_header.php' ?>
-<?php include '_sidebar.php' ?>
-         <!-- page content -->
-        <div class="right_col" role="main">
-          <div class="">
-            <div class="row" >
-            
-              <a href="#" class="animated flipInY col-md-4 col-sm-6 ">
-                <div class="tile-stats">
-                  <div class="icon"><i class="fa fa-group"></i></div>
-                  <div class="count">179</div>
-                  <h3>Adcionar Clientes</h3>
-                 
-                </div>
-              </a>
-              <a href="#" class="animated flipInY col-md-4 col-sm-6 ">
-                <div class="tile-stats">
-                  <div class="icon"><i class="fa fa-hospital-o"></i></div>
-                  <div class="count">90</div>
-                  <h3>Adcionar Clínicas</h3>
-                 
-                </div>
-              </a>
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-              <a href="#" class="animated flipInY col-md-4 col-sm-6 ">
-                <div class="tile-stats">
-                  <div class="icon"><i class="fa fa-user"></i></div>
-                  <div class="count">30</div>
-                  <h3>Adcionar Prestadores</h3>
-                 
-                </div>
-              </a>
-            </div>
-           <div class="row" >
+    <title> MEDIPAINEL </title>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <!-- Bootstrap -->
+    <link href="vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- NProgress -->
+    <link href="vendors/nprogress/nprogress.css" rel="stylesheet">
+    <!-- Animate.css -->
+    <link href="vendors/animate.css/animate.min.css" rel="stylesheet">
 
-              <a href="#" class="animated flipInY col-md-4 col-sm-6 ">
-                <div class="tile-stats">
-                  <div class="icon"><i class="fa fa-file-text-o"></i></div>
-                  <div class="count">80</div>
-                  <h3>Adcionar Tipos de Exames</h3>
-                 
-                </div>
-              </a>
+    <!-- Custom Theme Style -->
+    <link href="build/css/custom.min.css" rel="stylesheet">
 
+     <link href="build/css/login.css" rel="stylesheet">
+  </head>
 
-              <a href="#" class="animated flipInY col-md-4 col-sm-6 ">
-                <div class="tile-stats">
-                  <div class="icon"><i class="fa fa-file-text-o"></i></div>
-                  <div class="count">25</div>
-                  <h3>Adcionar Tipos de Consultas</h3>
-                 
-                </div>
-              </a>
-              <a href="#" class="animated flipInY col-md-4 col-sm-6 ">
-                <div class="tile-stats">
-                  <div class="icon"><i class="fa fa-usd"></i></div>
-                  <div class="count">279</div>
-                  <h3>Adcionar Ordens de Pagamentos</h3>
-                 
-                </div>
-              </a>
-              
-           
-          </div>
+  <body>
+   <section class="container-fluid">
+          <div class="row group-form">
 
-         
-
-
-
-
-
-            <div class="row">
-              <div class="col-md-6">
-                  <div class="x_panel">
-                  <div class="x_title">
-                    <h2>Requesições cadastradas</h2>
-                   
-                    <div class="clearfix"></div>
-                  </div>
-                  <div class="x_content">
-                      <div class="row">
-                          <div class="col-sm-12">
-                            <div class="card-box table-responsive">
-                  
-          
-                    <table  class="table table-striped table-bordered dt-responsive nowrap" cellspacing="0" width="100%">
-                      <thead>
-                        <tr>
-                         
-                          <th>Número</th>
-                          <th>Cliente</th>
-                          <th>Clínica</th>
-                          <th>Status</th>                      
-                          <th class="right-icons">Ações</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>001</td> 
-                          <td>Lucas Fonseca da Luz</td>
-                          <td>Clínica 01</td>
-                          <td><button type="button" class="btn btn-success btn-sm">Confirmado</button></td>                        
-                          <td class="right-icons"><a href="_visualizar.php" title="Visualizar"><i class="fa fa-file-text-o"></i></a> <a href="" title="Editar"><i class="fa fa-pencil-square-o"></i></a> <a href="" title="Deletar"><i class="fa fa-trash"></i></a></td>
-                        </tr>
-                        <tr>
-                          <td>002</td> 
-                          <td>Lucas Fonseca da Luz</td>
-                          <td>Clínica 01</td>
-                          <td><button type="button" class="btn btn-warning btn-sm">Aguardando</button></td>                        
-                          <td class="right-icons"><a href="_visualizar.php" title="Visualizar"><i class="fa fa-file-text-o"></i></a> <a href="" title="Editar"><i class="fa fa-pencil-square-o"></i></a> <a href="" title="Deletar"><i class="fa fa-trash"></i></a></td>
-                        </tr>
-                         <tr>
-                          <td>001</td> 
-                          <td>Lucas Fonseca da Luz</td>
-                          <td>Clínica 01</td>
-                          <td><button type="button" class="btn btn-success btn-sm">Confirmado</button></td>                        
-                          <td class="right-icons"><a href="_visualizar.php" title="Visualizar"><i class="fa fa-file-text-o"></i></a> <a href="" title="Editar"><i class="fa fa-pencil-square-o"></i></a> <a href="" title="Deletar"><i class="fa fa-trash"></i></a></td>
-                        </tr>
-                        <tr>
-                          <td>002</td> 
-                          <td>Lucas Fonseca da Luz</td>
-                          <td>Clínica 01</td>
-                          <td><button type="button" class="btn btn-warning btn-sm">Aguardando</button></td>                        
-                          <td class="right-icons"><a href="_visualizar.php" title="Visualizar"><i class="fa fa-file-text-o"></i></a> <a href="" title="Editar"><i class="fa fa-pencil-square-o"></i></a> <a href="" title="Deletar"><i class="fa fa-trash"></i></a></td>
-                        </tr>
-                         <tr>
-                          <td>001</td> 
-                          <td>Lucas Fonseca da Luz</td>
-                          <td>Clínica 01</td>
-                          <td><button type="button" class="btn btn-success btn-sm">Confirmado</button></td>                        
-                          <td class="right-icons"><a href="_visualizar.php" title="Visualizar"><i class="fa fa-file-text-o"></i></a> <a href="" title="Editar"><i class="fa fa-pencil-square-o"></i></a> <a href="" title="Deletar"><i class="fa fa-trash"></i></a></td>
-                        </tr>
+              <div class="col-sm-12 col-md-5" id="bloco-busca">
+                
+                <main class="form-signin">
+                  <form action="inicial.php">
+                   <div class="lg-top"><img src="images/MedimagemNova.svg" width="180"></div>
+                    <h1 class="mb-3 fw-normal">Acessar <span> Ou <a href="criar-conta.php">Criar conta</a> | <a href="criar-medico.php">Sou médico</a></span></h1>
+                    <label for="inputEmail" >SEU E-MAIL</label>
+                    <input type="email" id="inputEmail" class="form-control form-control-lg"  autofocus="">
+                    <label for="inputPassword" id="blc-senha" >SENHA <span><a href="">esqueceu a senha?</a></span></label>
+                    <input type="password" id="inputPassword" class="form-control form-control-lg"  required="">
                     
-                      
-                        
-                      </tbody>
-                    </table>
-          
-          
-                  </div>
-                </div>
-              </div>
-            </div>
-                </div>
+                    <button class=" btn btn-lg btn-dark" type="submit">Acessar</button>
+                    <p class="marca-rodape">©2021 Desenvovido pela Medimagem</p>
+                  </form>
+                </main>
+
+
               </div>
 
-              <div class="col-md-6">
-                <div class="x_panel">
-                  <div class="x_title">
-                          <h2>Agendamentos</h2>
-                        
-                          <div class="clearfix"></div>
-                        </div>
-                       <table  class="table table-striped table-bordered dt-responsive nowrap" cellspacing="0" width="100%">
-                      <thead>
-                        <tr>
-                         
-                          <th>Número</th>
-                          <th>Cliente</th>
-                          <th>Data de Agendamento</th>
-                          <th>Clínica</th>
-                          <th>Exame</th>
-                          <th>Status</th>                      
-                          <th class="right-icons">Ações</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>001</td> 
-                          <td>Lucas Fonseca da Luz</td>
-                          <td>31.01.2021 | 16hs</td>
-                          <td>Clínica 01</td>
-                          <td>Densitometria Óssea</td>
-                          <td><button type="button" class="btn btn-success btn-sm">Confirmado</button></td>                        
-                          <td class="right-icons"><a href="_visualizar-agendamento.php" title="Visualizar"><i class="fa fa-file-text-o"></i></a> <a href="" title="Editar"><i class="fa fa-pencil-square-o"></i></a> <a href="" title="Deletar"><i class="fa fa-trash"></i></a></td>
-                        </tr>
-                        <tr>
-                          <td>002</td> 
-                          <td>Lucas Fonseca da Luz</td>
-                          <td>31.01.2021 | 16hs</td>
-                          <td>Clínica 01</td>
-                          <td>Densitometria Óssea</td>
-                          <td><button type="button" class="btn btn-warning btn-sm">Aguardando</button></td>                        
-                          <td class="right-icons"><a href="_visualizar-agendamento.php" title="Visualizar"><i class="fa fa-file-text-o"></i></a> <a href="" title="Editar"><i class="fa fa-pencil-square-o"></i></a> <a href="" title="Deletar"><i class="fa fa-trash"></i></a></td>
-                        </tr>
-                         <tr>
-                          <td>003</td> 
-                          <td>Lucas Fonseca da Luz</td>
-                          <td>31.01.2021 | 16hs</td>
-                          <td>Clínica 01</td>
-                          <td>Densitometria Óssea</td>
-                          <td><button type="button" class="btn btn-success btn-sm">Confirmado</button></td>                        
-                          <td class="right-icons"><a href="_visualizar-agendamento.php" title="Visualizar"><i class="fa fa-file-text-o"></i></a> <a href="" title="Editar"><i class="fa fa-pencil-square-o"></i></a> <a href="" title="Deletar"><i class="fa fa-trash"></i></a></td>
-                        </tr>
-                        <tr>
-                          <td>004</td> 
-                          <td>Lucas Fonseca da Luz</td>
-                          <td>31.01.2021 | 16hs</td>
-                          <td>Clínica 01</td>
-                          <td>Densitometria Óssea</td>
-                          <td><button type="button" class="btn btn-warning btn-sm">Aguardando</button></td>                        
-                          <td class="right-icons"><a href="_visualizar-agendamento.php" title="Visualizar"><i class="fa fa-file-text-o"></i></a> <a href="" title="Editar"><i class="fa fa-pencil-square-o"></i></a> <a href="" title="Deletar"><i class="fa fa-trash"></i></a></td>
-                        </tr>
-                         <tr>
-                          <td>005</td> 
-                          <td>Lucas Fonseca da Luz</td>
-                          <td>31.01.2021 | 16hs</td>
-                          <td>Clínica 01</td>
-                          <td>Densitometria Óssea</td>
-                          <td><button type="button" class="btn btn-success btn-sm">Confirmado</button></td>                        
-                          <td class="right-icons"><a href="_visualizar-agendamento.php" title="Visualizar"><i class="fa fa-file-text-o"></i></a> <a href="" title="Editar"><i class="fa fa-pencil-square-o"></i></a> <a href="" title="Deletar"><i class="fa fa-trash"></i></a></td>
-                        </tr>
-                       
-                      </tbody>
-                    </table>
-                      </div>
+              <div class="col-sm-12 col-md-7" id="login-bg">
+                
+                <h1 class="txt-login">Saúde na palma da mão</h1>
+
               </div>
-
- 
-            </div>
-
-        
-
 
           </div>
-        </div>
-        <!-- /page content -->
-
-
-<?php include '_footer.php' ?>
+      </section>
+  </body>
+</html>
