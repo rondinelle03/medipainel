@@ -30,6 +30,16 @@ article.media {
 	color: #666;
 }
 
+.capa-agendamento{
+	font-size: 16px;
+	font-weight: bold;
+	color: #d2bc60;
+	text-align: center;
+}
+.tit-hed{
+	text-align: center;
+	font-size:20px;
+}
 
 .site_title{
 	height: 116px;

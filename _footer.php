@@ -9,7 +9,7 @@
         </footer>
         <!-- /footer content -->
       </div>
-    </div>
+    </div> 
 
     <!-- jQuery -->
     <script src="vendors/jquery/dist/jquery.min.js"></script>
@@ -59,6 +59,7 @@
     <script src="vendors/pdfmake/build/pdfmake.min.js"></script>
     <script src="vendors/pdfmake/build/vfs_fonts.js"></script>
 
+    <script src="vendors/echarts/dist/echarts.min.js"></script>
     
     <!-- Custom Theme Scripts -->
     <script src="build/js/custom.js"></script>
