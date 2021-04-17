@@ -3317,16 +3317,17 @@ function init_echarts() {
 
     }
 
-    //echart Line
 
-    if ($('#echart_line').length) {
+    //FINANCEIRO
 
-        var echartLine = echarts.init(document.getElementById('echart_line'), theme);
+    if ($('#echart_financeiro').length) {
 
-        echartLine.setOption({
-            title: {
-                text: 'Line Graph',
-                subtext: 'Subtitle'
+        var echartFinanceiro = echarts.init(document.getElementById('echart_financeiro'), theme);
+
+        echartFinanceiro.setOption({
+           title: {
+              /*  text: 'Line Graph',*/
+                subtext: 'Valores em reais'
             },
             tooltip: {
                 trigger: 'axis'
@@ -3334,7 +3335,8 @@ function init_echarts() {
             legend: {
                 x: 220,
                 y: 40,
-                data: ['Intent', 'Pre-order', 'Deal']
+               // data: ['Intent', 'Pre-order', 'Deal']
+                data: ['À Receber', 'Receitas', 'À pagar', 'Despesas', 'Lucro', 'Meta de faturamento']
             },
             toolbox: {
                 show: true,
@@ -3347,7 +3349,278 @@ function init_echarts() {
                             stack: 'Stack',
                             tiled: 'Tiled'
                         },
-                        type: ['line', 'bar', 'stack', 'tiled']
+                        type: ['line','bar', 'stack', 'tiled']
+                    },
+                    restore: {
+                        show: true,
+                        title: "Restorar"
+                    },
+                    saveAsImage: {
+                        show: true,
+                        title: "Salvar Imagem"
+                    }
+                }
+            },
+            calculable: true,
+            xAxis: [{
+                type: 'category',
+                boundaryGap: false,
+                data: ['Jan', 'Fev', 'Mar', 'Abr', 'Mai', 'Jun', 'Jul','Ago','Set','Out','Nov','Dez']
+            }],
+            yAxis: [{
+                type: 'value'
+            }],
+            series: [
+
+            {
+                name: 'À Receber',
+                type: 'line',
+                smooth: true,
+                itemStyle: {
+                    normal: {
+                        areaStyle: {
+                            type: 'default'
+                        }
+                    }
+                },
+                data: [10, 12, 21, 54, 260, 830, 710, 88, 85,10, 12, 58]
+            }, {
+                name: 'Receitas',
+                type: 'line',
+                smooth: true,
+                itemStyle: {
+                    normal: {
+                        areaStyle: {
+                            type: 'default'
+                        }
+                    }
+                },
+                data: [30, 182, 434, 791, 390, 30, 10,30, 182, 434, 791, 390]
+            }, {
+                name: 'À Pagar',
+                type: 'line',
+                smooth: true,
+                itemStyle: {
+                    normal: {
+                        areaStyle: {
+                            type: 'default'
+                        }
+                    }
+                },
+                data: [320, 132, 401, 134, 120, 90, 20, 320, 132, 401, 134, 55]
+            },
+            {
+                name: 'Despesas',
+                type: 'line',
+                smooth: true,
+                itemStyle: {
+                    normal: {
+                        areaStyle: {
+                            type: 'default'
+                        }
+                    }
+                },
+                data: [25, 12, 404, 491, 40, 3, 4, 31, 82, 34, 91, 39]
+            },
+            {
+                name: 'Lucro',
+                type: 'line',
+                smooth: true,
+                itemStyle: {
+                    normal: {
+                        areaStyle: {
+                            type: 'default'
+                        }
+                    }
+                },
+                data: [10, 82, 34, 91, 90, 0, 100, 130, 12, 34, 71, 30]
+            },
+            {
+                name: 'Meta de faturamento',
+                type: 'line',
+                smooth: true,
+                itemStyle: {
+                    normal: {
+                        areaStyle: {
+                            type: 'default'
+                        }
+                    }
+                },
+                data: [30, 182, 434, 791, 390, 30, 10,30, 182, 434, 791, 390]
+            }]
+        });
+
+    }
+
+
+
+
+    //Linha do tempo atendimentos - 2021
+
+    if ($('#echart_line').length) {
+
+        var echartLine = echarts.init(document.getElementById('echart_line'), theme);
+
+        echartLine.setOption({
+           /* title: {
+                text: 'Line Graph',
+                subtext: 'Subtitle'
+            },*/
+            tooltip: {
+                trigger: 'axis'
+            },
+            legend: {
+                x: 220,
+                y: 40,
+               // data: ['Intent', 'Pre-order', 'Deal']
+                data: ['Consultas', 'Retornos', 'Cirurgias', 'Exames', 'Procedimentos', 'Cancelados']
+            },
+            toolbox: {
+                show: true,
+                feature: {
+                    magicType: {
+                        show: true,
+                        title: {
+                            line: 'Line',
+                            bar: 'Bar',
+                            stack: 'Stack',
+                            tiled: 'Tiled'
+                        },
+                        type: ['line','bar', 'stack', 'tiled']
+                    },
+                    restore: {
+                        show: true,
+                        title: "Restorar"
+                    },
+                    saveAsImage: {
+                        show: true,
+                        title: "Salvar Imagem"
+                    }
+                }
+            },
+            calculable: true,
+            xAxis: [{
+                type: 'category',
+                boundaryGap: false,
+                data: ['Jan', 'Fev', 'Mar', 'Abr', 'Mai', 'Jun', 'Jul','Ago','Set','Out','Nov','Dez']
+            }],
+            yAxis: [{
+                type: 'value'
+            }],
+            series: [
+
+            {
+                name: 'Cancelados',
+                type: 'line',
+                smooth: true,
+                itemStyle: {
+                    normal: {
+                        areaStyle: {
+                            type: 'default'
+                        }
+                    }
+                },
+                data: [10, 12, 21, 54, 260, 830, 710, 88, 85,10, 12, 58]
+            }, {
+                name: 'Procedimentos',
+                type: 'line',
+                smooth: true,
+                itemStyle: {
+                    normal: {
+                        areaStyle: {
+                            type: 'default'
+                        }
+                    }
+                },
+                data: [30, 182, 434, 791, 390, 30, 10,30, 182, 434, 791, 390]
+            }, {
+                name: 'Exames',
+                type: 'line',
+                smooth: true,
+                itemStyle: {
+                    normal: {
+                        areaStyle: {
+                            type: 'default'
+                        }
+                    }
+                },
+                data: [1320, 1132, 601, 234, 120, 90, 20,1320, 1132, 601, 234, 55]
+            },
+            {
+                name: 'Cirurgias',
+                type: 'line',
+                smooth: true,
+                itemStyle: {
+                    normal: {
+                        areaStyle: {
+                            type: 'default'
+                        }
+                    }
+                },
+                data: [25, 12, 404, 491, 40, 3, 4, 31, 82, 34, 91, 39]
+            },
+            {
+                name: 'Retornos',
+                type: 'line',
+                smooth: true,
+                itemStyle: {
+                    normal: {
+                        areaStyle: {
+                            type: 'default'
+                        }
+                    }
+                },
+                data: [10, 82, 34, 91, 90, 0, 100, 130, 12, 34, 71, 30]
+            },
+            {
+                name: 'Consultas',
+                type: 'line',
+                smooth: true,
+                itemStyle: {
+                    normal: {
+                        areaStyle: {
+                            type: 'default'
+                        }
+                    }
+                },
+                data: [30, 182, 434, 791, 390, 30, 10,30, 182, 434, 791, 390]
+            }]
+        });
+
+    }
+
+
+// Produtividade da agenda na semana
+
+
+     if ($('#echart_agenda_semana').length) {
+
+        var echartAgenda = echarts.init(document.getElementById('echart_agenda_semana'), theme);
+
+        echartAgenda.setOption({
+            title: {
+                text: 'Número de ocorrências'
+            },
+            tooltip: {
+                trigger: 'axis'
+            },
+            legend: {
+                x: 220,
+                y: 40,
+               // data: ['Intent', 'Pre-order', 'Deal']
+                data: ['Atend realizados', 'Total faltantes', 'Total Cancelados', 'Pacientes Novos', 'Agend. Cadastrados']
+            },
+            toolbox: {
+                show: true,
+                feature: {
+                    magicType: {
+                        show: true,
+                        title: {
+                            bar: 'Bar',
+                            stack: 'Stack',
+                            tiled: 'Tiled'
+                        },
+                        type: ['bar']
                     },
                     restore: {
                         show: true,
@@ -3363,14 +3636,16 @@ function init_echarts() {
             xAxis: [{
                 type: 'category',
                 boundaryGap: false,
-                data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+                data: ['09/04/2021 até 16/04/2021']
             }],
             yAxis: [{
                 type: 'value'
             }],
-            series: [{
-                name: 'Deal',
-                type: 'line',
+            series: [
+
+            {
+                name: 'Agend. Cadastrados',
+                type: 'bar',
                 smooth: true,
                 itemStyle: {
                     normal: {
@@ -3379,10 +3654,10 @@ function init_echarts() {
                         }
                     }
                 },
-                data: [10, 12, 21, 54, 260, 830, 710]
+                data: [10]
             }, {
-                name: 'Pre-order',
-                type: 'line',
+                name: 'Pacientes Novos',
+                type: 'bar',
                 smooth: true,
                 itemStyle: {
                     normal: {
@@ -3391,10 +3666,10 @@ function init_echarts() {
                         }
                     }
                 },
-                data: [30, 182, 434, 791, 390, 30, 10]
+                data: [30]
             }, {
-                name: 'Intent',
-                type: 'line',
+                name: 'Total Cancelados',
+                type: 'bar',
                 smooth: true,
                 itemStyle: {
                     normal: {
@@ -3403,7 +3678,33 @@ function init_echarts() {
                         }
                     }
                 },
-                data: [1320, 1132, 601, 234, 120, 90, 20]
+                data: [3]
+            },
+            {
+                name: 'Total faltantes',
+                type: 'bar',
+                smooth: true,
+                itemStyle: {
+                    normal: {
+                        areaStyle: {
+                            type: 'default'
+                        }
+                    }
+                },
+                data: [25]
+            },
+            {
+                name: 'Atend. realizados',
+                type: 'bar',
+                smooth: true,
+                itemStyle: {
+                    normal: {
+                        areaStyle: {
+                            type: 'default'
+                        }
+                    }
+                },
+                data: [10]
             }]
         });
 
