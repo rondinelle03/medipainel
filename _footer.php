@@ -60,6 +60,9 @@
     <script src="vendors/pdfmake/build/vfs_fonts.js"></script>
 
     <script src="vendors/echarts/dist/echarts.min.js"></script>
+
+    <!-- jQuery Smart Wizard -->
+    <script src="vendors/jQuery-Smart-Wizard/js/jquery.smartWizard.js"></script>
     
     <!-- Custom Theme Scripts -->
     <script src="build/js/custom.js"></script>

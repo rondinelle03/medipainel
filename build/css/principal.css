@@ -12,6 +12,10 @@ article.media {
 	margin-right: 10px;
 }
 
+.verde{
+	color: #27c24c!important
+}
+
 #visualizar-requisicao h1 span{
 	display: block;
 	font-size: 20px;

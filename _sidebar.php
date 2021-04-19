@@ -13,11 +13,11 @@
                       <li><a href="_listar-setor.php">Listar setores</a></li>
                     </ul>
                   </li>
-                  <li><a><i class="fa fa-users"></i> Clientes <span class="fa fa-chevron-down"></span></a>
+                  <li><a><i class="fa fa-users"></i> Pacientes <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="_cadastrar-cliente.php">Cadastrar cliente</a></li>
-                      <li><a href="_listar-cliente.php">Listar clientes</a></li>
-                     
+                      <li><a href="_cadastrar-cliente.php">Cadastrar Pacientes</a></li>
+                      <li><a href="_listar-cliente.php">Listar Pacientes</a></li>
+                     <li><a href="_listar-aniversariantes.php">Aniversariantes</a></li>
                     </ul>
                   </li>
                    <li><a><i class="fa fa-hospital-o"></i> Clinicas <span class="fa fa-chevron-down"></span></a>
@@ -69,16 +69,16 @@
                      
                     </ul>
                   </li>
-                  <li><a ><i class="fa fa-bar-chart-o"></i> Relatórios <span class="fa fa-chevron-down"></span></a>
+               <!--   <li><a ><i class="fa fa-bar-chart-o"></i> Relatórios <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
                       <li><a href="_relatorios-clientes.php">Clientes</a></li>
                       <li><a href="_relatorios-agendamento.php">Agendamento</a></li>
                       <li><a href="_relatorios-requesicoes.php">Requesições</a></li>
                     </ul>
-                  </li>
-                  <li><a><i class="fa fa-bar-chart-o"></i> Financeiro / relatórios <span class="fa fa-chevron-down"></span></a>
+                  </li>-->
+                  <li><a><i class="fa fa-bar-chart-o"></i> Financeiro  <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="_listar-prestadores-relatorio.php">Prestadores</a></li>
+                      <li><a href="_tela-inicial.php">Tela inicial</a></li>
                       <li><a href="_relatorio-pagamento.php">Ordens de pagamento</a></li>
                      
                     </ul>

@@ -1780,7 +1780,12 @@ function init_SmartWizard() {
     if (typeof ($.fn.smartWizard) === 'undefined') { return; }
     console.log('init_SmartWizard');
 
-    $('#wizard').smartWizard();
+    $('#wizard').smartWizard({
+        lang:{
+            next: 'Proximo',
+            previous: 'Anterior'
+        }
+    });
 
     $('#wizard_verticle').smartWizard({
         transitionEffect: 'slide'
@@ -4337,16 +4342,16 @@ function init_echarts() {
         var echartBar = echarts.init(document.getElementById('echart_bar_horizontal'), theme);
 
         echartBar.setOption({
-            title: {
+            /*title: {
                 text: 'Bar Graph',
                 subtext: 'Graph subtitle'
-            },
+            },*/
             tooltip: {
                 trigger: 'axis'
             },
             legend: {
                 x: 100,
-                data: ['2015', '2016']
+                data: ['0-10', '21-30', '31-40']
             },
             toolbox: {
                 show: true,
@@ -4364,17 +4369,22 @@ function init_echarts() {
             }],
             yAxis: [{
                 type: 'category',
-                data: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun']
+                data: ['', '', '', '', '', '']
             }],
             series: [{
-                name: '2015',
+                name: '0-10',
                 type: 'bar',
-                data: [18203, 23489, 29034, 104970, 131744, 630230]
+                data: [20]
             }, {
-                name: '2016',
+                name: '21-30',
                 type: 'bar',
-                data: [19325, 23438, 31000, 121594, 134141, 681807]
-            }]
+                data: [30]
+            },
+            {
+                name: '31-40',
+                type: 'bar',
+                data: [60]
+            },]
         });
 
     }
@@ -4533,7 +4543,7 @@ function init_echarts() {
 
     }
 
-    //echart Pie
+    //GENERO
 
     if ($('#echart_pie').length) {
 
@@ -4547,7 +4557,7 @@ function init_echarts() {
             legend: {
                 x: 'center',
                 y: 'bottom',
-                data: ['Direct Access', 'E-mail Marketing', 'Union Ad', 'Video Ads', 'Search Engine']
+                data: ['Masculino', 'Feminino']
             },
             toolbox: {
                 show: true,
@@ -4581,20 +4591,11 @@ function init_echarts() {
                 radius: '55%',
                 center: ['50%', '48%'],
                 data: [{
-                    value: 335,
-                    name: 'Direct Access'
+                    value: 30,
+                    name: 'Masculino'
                 }, {
-                    value: 310,
-                    name: 'E-mail Marketing'
-                }, {
-                    value: 234,
-                    name: 'Union Ad'
-                }, {
-                    value: 135,
-                    name: 'Video Ads'
-                }, {
-                    value: 1548,
-                    name: 'Search Engine'
+                    value: 70,
+                    name: 'Feminino'
                 }]
             }]
         });

@@ -7,21 +7,70 @@
             <div class="title_left">
               <h3>Listar Agendamento</h3>
             </div>
-<!--
+
             <div class="title_right">
                 <div class="col-md-5 col-sm-5   form-group pull-right top_search">
                   <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Procure...">
-                    <span class="input-group-btn">
-                      <button class="btn btn-default" type="button">Ir!</button>
-                    </span>
+                    <select class="form-control" aria-label="Default select example">
+                        <option selected>Selecione um Médico</option>
+                        <option value="1">Médico 01</option>
+                        <option value="2">Médico 02</option>
+                        <option value="3">Médico 03</option>
+                      </select>
                   </div>
                 </div>
-              </div>-->
+              </div>
           </div>
           <div class="clearfix"></div>
+
+
          
             <div class="row">
+               <div class="col-sm-12">
+                <div class="x_panel">
+                  <div class="x_title">
+                          <h2>Médico 01 <small>(Médico Selecionado)</small></h2>
+                           <ul class="nav navbar-right panel_toolbox">
+                              
+                              <li><a class="btn btn-outline-secondary btn-sm">AGENDAR <i class="fa fa-plus"></i></a>
+                              </li>
+                            </ul>
+                          <div class="clearfix"></div>
+                        </div>
+
+                       <div class="alert alert-warning alert-dismissible " role="alert">
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span>
+                        </button>
+                       Sem agendamentos para o dia de hoje.
+                      </div>
+
+                       <table  class="table table-striped table-bordered dt-responsive nowrap" cellspacing="0" width="100%">
+                      <thead>
+                        <tr class="tit-hed">
+                         
+                          <th>Agendados</th>
+                          <th>Finalizados</th>
+                          <th>Retornos</th>
+                          <th>Cancelados</th>
+                         
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr class="capa-agendamento">
+                          <td>0</td> 
+                          <td>0</td>
+                          <td>0</td>
+                          <td>0</td>
+                          
+                        </tr>
+                       
+                       
+                      </tbody>
+                    </table>
+                      </div>
+              </div>
+
+
                 <div class="col-md-12 col-sm-12 ">
                 <div class="x_panel">
                   <div class="x_title">
