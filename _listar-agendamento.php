@@ -52,7 +52,7 @@
                         <tr>
                           <td>001</td> 
                           <td>Lucas Fonseca da Luz</td>
-                          <td>31.01.2021 | 16hs</td>
+                          <td>31.01.2021 | 10:20</td>
                           <td>Clínica 01</td>
                           <td>Densitometria Óssea</td>
                           <td><button type="button" class="btn btn-success btn-sm">Confirmado</button></td>                        
@@ -61,7 +61,7 @@
                         <tr>
                           <td>002</td> 
                           <td>Lucas Fonseca da Luz</td>
-                          <td>31.01.2021 | 16hs</td>
+                          <td>31.01.2021 | 10:20</td>
                           <td>Clínica 01</td>
                           <td>Densitometria Óssea</td>
                           <td><button type="button" class="btn btn-warning btn-sm">Aguardando</button></td>                        
@@ -70,7 +70,7 @@
                          <tr>
                           <td>003</td> 
                           <td>Lucas Fonseca da Luz</td>
-                          <td>31.01.2021 | 16hs</td>
+                          <td>31.01.2021 | 10:20</td>
                           <td>Clínica 01</td>
                           <td>Densitometria Óssea</td>
                           <td><button type="button" class="btn btn-success btn-sm">Confirmado</button></td>                        
@@ -79,7 +79,7 @@
                         <tr>
                           <td>004</td> 
                           <td>Lucas Fonseca da Luz</td>
-                          <td>31.01.2021 | 16hs</td>
+                          <td>31.01.2021 | 10:20</td>
                           <td>Clínica 01</td>
                           <td>Densitometria Óssea</td>
                           <td><button type="button" class="btn btn-warning btn-sm">Aguardando</button></td>                        
@@ -88,7 +88,7 @@
                          <tr>
                           <td>005</td> 
                           <td>Lucas Fonseca da Luz</td>
-                          <td>31.01.2021 | 16hs</td>
+                          <td>31.01.2021 | 10:20</td>
                           <td>Clínica 01</td>
                           <td>Densitometria Óssea</td>
                           <td><button type="button" class="btn btn-success btn-sm">Confirmado</button></td>                        
@@ -97,7 +97,7 @@
                         <tr>
                           <td>006</td> 
                           <td>Lucas Fonseca da Luz</td>
-                          <td>31.01.2021 | 16hs</td>
+                          <td>31.01.2021 | 10:20</td>
                           <td>Clínica 01</td>
                           <td>Densitometria Óssea</td>
                           <td><button type="button" class="btn btn-warning btn-sm">Aguardando</button></td>                        
@@ -106,7 +106,7 @@
                          <tr>
                           <td>007</td> 
                           <td>Lucas Fonseca da Luz</td>
-                          <td>31.01.2021 | 16hs</td>
+                          <td>31.01.2021 | 10:20</td>
                           <td>Clínica 01</td>
                           <td>Densitometria Óssea</td>
                           <td><button type="button" class="btn btn-success btn-sm">Confirmado</button></td>                        
@@ -115,7 +115,7 @@
                         <tr>
                           <td>008</td> 
                           <td>Lucas Fonseca da Luz</td>
-                          <td>31.01.2021 | 16hs</td>
+                          <td>31.01.2021 | 10:20</td>
                           <td>Clínica 01</td>
                           <td>Densitometria Óssea</td>
                           <td><button type="button" class="btn btn-warning btn-sm">Aguardando</button></td>                        
@@ -124,7 +124,7 @@
                          <tr>
                           <td>009</td> 
                           <td>Lucas Fonseca da Luz</td>
-                          <td>31.01.2021 | 16hs</td>
+                          <td>31.01.2021 | 10:20</td>
                           <td>Clínica 01</td>
                           <td>Densitometria Óssea</td>
                           <td><button type="button" class="btn btn-success btn-sm">Confirmado</button></td>                        
@@ -133,7 +133,7 @@
                         <tr>
                           <td>010</td> 
                           <td>Lucas Fonseca da Luz</td>
-                          <td>31.01.2021 | 16hs</td>
+                          <td>31.01.2021 | 10:20</td>
                           <td>Clínica 01</td>
                           <td>Densitometria Óssea</td>
                           <td><button type="button" class="btn btn-warning btn-sm">Aguardando</button></td>                        
@@ -142,7 +142,7 @@
                          <tr>
                           <td>011</td> 
                           <td>Lucas Fonseca da Luz</td>
-                          <td>31.01.2021 | 16hs</td>
+                          <td>31.01.2021 | 10:20</td>
                           <td>Clínica 01</td>
                           <td>Densitometria Óssea</td>
                           <td><button type="button" class="btn btn-success btn-sm">Confirmado</button></td>                        
@@ -151,7 +151,7 @@
                         <tr>
                           <td>012</td> 
                           <td>Lucas Fonseca da Luz</td>
-                          <td>31.01.2021 | 16hs</td>
+                          <td>31.01.2021 | 10:20</td>
                           <td>Clínica 01</td>
                           <td>Densitometria Óssea</td>
                           <td><button type="button" class="btn btn-warning btn-sm">Aguardando</button></td>                        
@@ -160,7 +160,7 @@
                          <tr>
                           <td>013</td> 
                           <td>Lucas Fonseca da Luz</td>
-                          <td>31.01.2021 | 16hs</td>
+                          <td>31.01.2021 | 10:20</td>
                           <td>Clínica 01</td>
                           <td>Densitometria Óssea</td>
                           <td><button type="button" class="btn btn-success btn-sm">Confirmado</button></td>                        
@@ -169,7 +169,7 @@
                         <tr>
                           <td>014</td> 
                           <td>Lucas Fonseca da Luz</td>
-                          <td>31.01.2021 | 16hs</td>
+                          <td>31.01.2021 | 10:20</td>
                           <td>Clínica 01</td>
                           <td>Densitometria Óssea</td>
                           <td><button type="button" class="btn btn-warning btn-sm">Aguardando</button></td>                        

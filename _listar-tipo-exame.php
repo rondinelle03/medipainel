@@ -38,353 +38,40 @@
                     <table id="datatable-responsive" class="table table-striped table-bordered dt-responsive nowrap" cellspacing="0" width="100%">
                       <thead>
                         <tr>
-                         <th>Código</th> 
-                          <th>Tipos</th> 
-                          <th>Valor</th>                      
+                          <th>Sigla</th> 
+                          <th>Procedimento</th> 
+                          <th>Código</th> 
+                          <th>Popular R$</th> 
+                          <th>Particular R$</th>                      
                           <th class="right-icons">Ações</th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
-                          <td>R4FSA472</td>
-                          <td>Tiger</td>                         
-                            <td>R$ 45,00</td>
+                          <td>CT</td>
+                          <td>CT ABDOME SUPERIOR</td>                         
+                          <td>41001109</td>
+                          <td>300</td>
+                          <td>400</td>
                           <td class="right-icons"><a href=""><i class="fa fa-pencil-square-o"></i></a> <a href=""><i class="fa fa-trash"></i></a></td>
                         </tr>
-                        <tr>
-                          <td>R4FSA472</td>
-                          <td>Garrett</td>
-                            <td>R$ 45,00</td>
+                         <tr>
+                          <td>CT</td>
+                          <td>CT ANGIO ARTERIAL ABDOME SUPERIOR</td>                         
+                          <td>41001095</td>
+                          <td>300</td>
+                          <td>400</td>
                           <td class="right-icons"><a href=""><i class="fa fa-pencil-square-o"></i></a> <a href=""><i class="fa fa-trash"></i></a></td>
                         </tr>
-                        <tr>
-                          <td>R4FSA472</td>
-                          <td>Ashton</td>
-                            <td>R$ 45,00</td>
+                         <tr>
+                          <td>CT</td>
+                          <td>CT ABDOME SUPERIOR</td>                         
+                          <td>41001435</td>
+                          <td>300</td>
+                          <td>400</td>
                           <td class="right-icons"><a href=""><i class="fa fa-pencil-square-o"></i></a> <a href=""><i class="fa fa-trash"></i></a></td>
                         </tr>
-                        <tr>
-                          <td>R4FSA472</td>
-                          <td>Cedric</td>
-                            <td>R$ 45,00</td>
-                          <td class="right-icons"><a href=""><i class="fa fa-pencil-square-o"></i></a> <a href=""><i class="fa fa-trash"></i></a></td>
-                        </tr>
-                        <tr>
-                          <td>R4FSA472</td>
-                          <td>Airi</td>
-                          <td>R$ 45,00</td>
-                        <td class="right-icons"><a href=""><i class="fa fa-pencil-square-o"></i></a> <a href=""><i class="fa fa-trash"></i></a></td>
-                        </tr>
-                        <tr>
-                          <td>R4FSA472</td>
-                          <td>Brielle</td>
-                            <td>R$ 45,00</td>
-                          <td class="right-icons"><a href=""><i class="fa fa-pencil-square-o"></i></a> <a href=""><i class="fa fa-trash"></i></a></td>
-                        <tr>
-                          <td>R4FSA472</td>
-                          <td>Herrod</td>
-                            <td>R$ 45,00</td>
-                          <td class="right-icons"><a href=""><i class="fa fa-pencil-square-o"></i></a> <a href=""><i class="fa fa-trash"></i></a></td>
-                        </tr>
-                        <tr>
-                          <td>R4FSA472</td>
-                          <td>Rhona</td>
-                          <td>R$ 45,00</td>
-                        <td class="right-icons"><a href=""><i class="fa fa-pencil-square-o"></i></a> <a href=""><i class="fa fa-trash"></i></a></td>
-                        </tr>
-                        <tr>
-                          <td>R4FSA472</td>
-                          <td>Colleen</td>
-                          <td>R$ 45,00</td>
-                        <td class="right-icons"><a href=""><i class="fa fa-pencil-square-o"></i></a> <a href=""><i class="fa fa-trash"></i></a></td>
-                        </tr>
-                        <tr>
-                          <td>R4FSA472</td>
-                          <td>Sonya</td>
-                          <td>R$ 45,00</td>
-                        <td class="right-icons"><a href=""><i class="fa fa-pencil-square-o"></i></a> <a href=""><i class="fa fa-trash"></i></a></td>
-                        </tr>
-                        <tr>
-                          <td>R4FSA472</td>
-                          <td>Jena</td>
-                          <td>R$ 45,00</td>
-                        <td class="right-icons"><a href=""><i class="fa fa-pencil-square-o"></i></a> <a href=""><i class="fa fa-trash"></i></a></td>
-                        </tr>
-                        <tr>
-                          <td>R4FSA472</td>
-                          <td>Quinn</td>
-                            <td>R$ 45,00</td>
-                          <td class="right-icons"><a href=""><i class="fa fa-pencil-square-o"></i></a> <a href=""><i class="fa fa-trash"></i></a></td>
-                        <tr>
-                          <td>R4FSA472</td>
-                          <td>Charde</td>
-                            <td>R$ 45,00</td>
-                          <td class="right-icons"><a href=""><i class="fa fa-pencil-square-o"></i></a> <a href=""><i class="fa fa-trash"></i></a></td>
-                        </tr>
-                        <tr>
-                          <td>R4FSA472</td>
-                          <td>Haley</td>
-                            <td>R$ 45,00</td>
-                          <td class="right-icons"><a href=""><i class="fa fa-pencil-square-o"></i></a> <a href=""><i class="fa fa-trash"></i></a></td>
-                        </tr>
-                        <tr>
-                          <td>R4FSA472</td>
-                          <td>Tatyana</td>
-                          <td>R$ 45,00</td>
-                        <td class="right-icons"><a href=""><i class="fa fa-pencil-square-o"></i></a> <a href=""><i class="fa fa-trash"></i></a></td>
-                        </tr>
-                        <tr>
-                          <td>R4FSA472</td>
-                          <td>Michael</td>
-                            <td>R$ 45,00</td>
-                          <td class="right-icons"><a href=""><i class="fa fa-pencil-square-o"></i></a> <a href=""><i class="fa fa-trash"></i></a></td>
-                        </tr>
-                        <tr>
-                          <td>R4FSA472</td>
-                          <td>Paul</td>
-                          <td>R$ 45,00</td>
-                        <td class="right-icons"><a href=""><i class="fa fa-pencil-square-o"></i></a> <a href=""><i class="fa fa-trash"></i></a></td>
-                        </tr>
-                        <tr>
-                          <td>R4FSA472</td>
-                          <td>Gloria</td>
-                          <td>R$ 45,00</td>
-                        <td class="right-icons"><a href=""><i class="fa fa-pencil-square-o"></i></a> <a href=""><i class="fa fa-trash"></i></a></td>
-                        </tr>
-                        <tr>
-                          <td>R4FSA472</td>
-                          <td>Bradley</td>
-                          <td>R$ 45,00</td>
-                        <td class="right-icons"><a href=""><i class="fa fa-pencil-square-o"></i></a> <a href=""><i class="fa fa-trash"></i></a></td>
-                        </tr>
-                        <tr>
-                          <td>R4FSA472</td>
-                          <td>Dai</td>
-                            <td>R$ 45,00</td>
-                          <td class="right-icons"><a href=""><i class="fa fa-pencil-square-o"></i></a> <a href=""><i class="fa fa-trash"></i></a></td>
-                        </tr>
-                        <tr>
-                          <td>R4FSA472</td>
-                          <td>Jenette</td>
-                          <td>R$ 45,00</td>
-                        <td class="right-icons"><a href=""><i class="fa fa-pencil-square-o"></i></a> <a href=""><i class="fa fa-trash"></i></a></td>
-                        </tr>
-                        <tr>
-                          <td>R4FSA472</td>
-                          <td>Yuri</td>
-                          <td>R$ 45,00</td>
-                        <td class="right-icons"><a href=""><i class="fa fa-pencil-square-o"></i></a> <a href=""><i class="fa fa-trash"></i></a></td>
-                        </tr>
-                        <tr>
-                          <td>R4FSA472</td>
-                          <td>Caesar</td>
-                          <td>R$ 45,00</td>
-                        <td class="right-icons"><a href=""><i class="fa fa-pencil-square-o"></i></a> <a href=""><i class="fa fa-trash"></i></a></td>
-                        </tr>
-                        <tr>
-                          <td>R4FSA472</td>
-                          <td>Doris</td>
-                            <td>R$ 45,00</td>
-                          <td class="right-icons"><a href=""><i class="fa fa-pencil-square-o"></i></a> <a href=""><i class="fa fa-trash"></i></a></td>
-                        </tr>
-                        <tr>
-                          <td>R4FSA472</td>
-                          <td>Angelica</td>
-                            <td>R$ 45,00</td>
-                          <td class="right-icons"><a href=""><i class="fa fa-pencil-square-o"></i></a> <a href=""><i class="fa fa-trash"></i></a></td>
-                        </tr>
-                        <tr>
-                          <td>R4FSA472</td>
-                          <td>Gavin</td>
-                            <td>R$ 45,00</td>
-                          <td class="right-icons"><a href=""><i class="fa fa-pencil-square-o"></i></a> <a href=""><i class="fa fa-trash"></i></a></td>
-                        </tr>
-                        <tr>
-                          <td>R4FSA472</td>
-                          <td>Jennifer</td>
-                            <td>R$ 45,00</td>
-                          <td class="right-icons"><a href=""><i class="fa fa-pencil-square-o"></i></a> <a href=""><i class="fa fa-trash"></i></a></td>
-                        </tr>
-                        <tr>
-                          <td>R4FSA472</td>
-                          <td>Brenden</td>
-                            <td>R$ 45,00</td>
-                          <td class="right-icons"><a href=""><i class="fa fa-pencil-square-o"></i></a> <a href=""><i class="fa fa-trash"></i></a></td>
-                        </tr>
-                        <tr>
-                          <td>R4FSA472</td>
-                          <td>Fiona</td>
-                            <td>R$ 45,00</td>
-                          <td class="right-icons"><a href=""><i class="fa fa-pencil-square-o"></i></a> <a href=""><i class="fa fa-trash"></i></a></td>
-                        </tr>
-                        <tr>
-                          <td>R4FSA472</td>
-                          <td>Shou</td>
-                            <td>R$ 45,00</td>
-                          <td class="right-icons"><a href=""><i class="fa fa-pencil-square-o"></i></a> <a href=""><i class="fa fa-trash"></i></a></td>
-                        </tr>
-                        <tr>
-                          <td>R4FSA472</td>
-                          <td>Michelle</td>
-                          <td>R$ 45,00</td>
-                        <td class="right-icons"><a href=""><i class="fa fa-pencil-square-o"></i></a> <a href=""><i class="fa fa-trash"></i></a></td>
-                        </tr>
-                        <tr>
-                          <td>R4FSA472</td>
-                          <td>Suki</td>
-                            <td>R$ 45,00</td>
-                          <td class="right-icons"><a href=""><i class="fa fa-pencil-square-o"></i></a> <a href=""><i class="fa fa-trash"></i></a></td>
-                        </tr>
-                        <tr>
-                          <td>R4FSA472</td>
-                          <td>Prescott</td>
-                          <td>R$ 45,00</td>
-                        <td class="right-icons"><a href=""><i class="fa fa-pencil-square-o"></i></a> <a href=""><i class="fa fa-trash"></i></a></td>
-                        </tr>
-                        <tr>
-                          <td>R4FSA472</td>
-                          <td>Gavin</td>
-                            <td>R$ 45,00</td>
-                          <td class="right-icons"><a href=""><i class="fa fa-pencil-square-o"></i></a> <a href=""><i class="fa fa-trash"></i></a></td>
-                        </tr>
-                        <tr>
-                          <td>R4FSA472</td>
-                          <td>Martena</td>
-                            <td>R$ 45,00</td>
-                          <td class="right-icons"><a href=""><i class="fa fa-pencil-square-o"></i></a> <a href=""><i class="fa fa-trash"></i></a></td>
-                        </tr>
-                        <tr>
-                          <td>R4FSA472</td>
-                          <td>Unity</td>
-                            <td>R$ 45,00</td>
-                          <td class="right-icons"><a href=""><i class="fa fa-pencil-square-o"></i></a> <a href=""><i class="fa fa-trash"></i></a></td>
-                        </tr>
-                        <tr>
-                          <td>R4FSA472</td>
-                          <td>Howard</td>
-                          <td>R$ 45,00</td>
-                        <td class="right-icons"><a href=""><i class="fa fa-pencil-square-o"></i></a> <a href=""><i class="fa fa-trash"></i></a></td>
-                        </tr>
-                        <tr>
-                          <td>R4FSA472</td>
-                          <td>Hope</td>
-                            <td>R$ 45,00</td>
-                          <td class="right-icons"><a href=""><i class="fa fa-pencil-square-o"></i></a> <a href=""><i class="fa fa-trash"></i></a></td>
-                        </tr>
-                        <tr>
-                          <td>R4FSA472</td>
-                          <td>Vivian</td>
-                      <td>R$ 45,00</td>
-                    <td class="right-icons"><a href=""><i class="fa fa-pencil-square-o"></i></a> <a href=""><i class="fa fa-trash"></i></a></td>
-                        </tr>
-                        <tr>
-                          <td>R4FSA472</td>
-                          <td>Timothy</td>
-                        <td>R$ 45,00</td>
-                      <td class="right-icons"><a href=""><i class="fa fa-pencil-square-o"></i></a> <a href=""><i class="fa fa-trash"></i></a></td>
-                        </tr>
-                        <tr>
-                          <td>R4FSA472</td>
-                          <td>Jackson</td>
-                          <td>R$ 45,00</td>
-                        <td class="right-icons"><a href=""><i class="fa fa-pencil-square-o"></i></a> <a href=""><i class="fa fa-trash"></i></a></td>
-                        </tr>
-                        <tr>
-                          <td>R4FSA472</td>
-                          <td>Olivia</td>
-                        <td>R$ 45,00</td>
-                      <td class="right-icons"><a href=""><i class="fa fa-pencil-square-o"></i></a> <a href=""><i class="fa fa-trash"></i></a></td>
-                        </tr>
-                        <tr>
-                          <td>R4FSA472</td>
-                          <td>Bruno</td>
-                          <td>R$ 45,00</td>
-                        <td class="right-icons"><a href=""><i class="fa fa-pencil-square-o"></i></a> <a href=""><i class="fa fa-trash"></i></a></td>
-                        </tr>
-                        <tr>
-                          <td>R4FSA472</td>
-                          <td>Sakura</td>
-                          <td>R$ 45,00</td>
-                        <td class="right-icons"><a href=""><i class="fa fa-pencil-square-o"></i></a> <a href=""><i class="fa fa-trash"></i></a></td>
-                        </tr>
-                        <tr>
-                          <td>R4FSA472</td>
-                          <td>Thor</td>
-                        <td>R$ 45,00</td>
-                      <td class="right-icons"><a href=""><i class="fa fa-pencil-square-o"></i></a> <a href=""><i class="fa fa-trash"></i></a></td>
-                        </tr>
-                        <tr>
-                          <td>R4FSA472</td>
-                          <td>Finn</td>
-                            <td>R$ 45,00</td>
-                          <td class="right-icons"><a href=""><i class="fa fa-pencil-square-o"></i></a> <a href=""><i class="fa fa-trash"></i></a></td>
-                        </tr>
-                        <tr>
-                          <td>R4FSA472</td>
-                          <td>Serge</td>
-                            <td>R$ 45,00</td>
-                          <td class="right-icons"><a href=""><i class="fa fa-pencil-square-o"></i></a> <a href=""><i class="fa fa-trash"></i></a></td>
-                        </tr>
-                        <tr>
-                          <td>R4FSA472</td>
-                          <td>Zenaida</td>
-                            <td>R$ 45,00</td>
-                          <td class="right-icons"><a href=""><i class="fa fa-pencil-square-o"></i></a> <a href=""><i class="fa fa-trash"></i></a></td>
-                        </tr>
-                        <tr>
-                          <td>R4FSA472</td>
-                          <td>Zorita</td>
-                          <td>R$ 45,00</td>
-                        <td class="right-icons"><a href=""><i class="fa fa-pencil-square-o"></i></a> <a href=""><i class="fa fa-trash"></i></a></td>
-                        </tr>
-                        <tr>
-                          <td>R4FSA472</td>
-                          <td>Jennifer</td>
-                            <td>R$ 45,00</td>
-                          <td class="right-icons"><a href=""><i class="fa fa-pencil-square-o"></i></a> <a href=""><i class="fa fa-trash"></i></a></td>
-                        </tr>
-                        <tr>
-                          <td>R4FSA472</td>
-                          <td>Cara</td>
-                        <td>R$ 45,00</td>
-                      <td class="right-icons"><a href=""><i class="fa fa-pencil-square-o"></i></a> <a href=""><i class="fa fa-trash"></i></a></td>
-                        </tr>
-                        <tr>
-                          <td>R4FSA472</td>
-                          <td>Hermione</td>
-                            <td>R$ 45,00</td>
-                          <td class="right-icons"><a href=""><i class="fa fa-pencil-square-o"></i></a> <a href=""><i class="fa fa-trash"></i></a></td>
-                        </tr>
-                        <tr>
-                          <td>R4FSA472</td>
-                          <td>Lael</td>
-                          <td>R$ 45,00</td>
-                        <td class="right-icons"><a href=""><i class="fa fa-pencil-square-o"></i></a> <a href=""><i class="fa fa-trash"></i></a></td>
-                        </tr>
-                        <tr>
-                          <td>R4FSA472</td>
-                          <td>Jonas</td>
-                          <td>R$ 45,00</td>
-                        <td class="right-icons"><a href=""><i class="fa fa-pencil-square-o"></i></a> <a href=""><i class="fa fa-trash"></i></a></td>
-                        </tr>
-                        <tr>
-                          <td>R4FSA472</td>
-                          <td>Shad</td>
-                          <td>R$ 45,00</td>
-                        <td class="right-icons"><a href=""><i class="fa fa-pencil-square-o"></i></a> <a href=""><i class="fa fa-trash"></i></a></td>
-                        </tr>
-                        <tr>
-                          <td>R4FSA472</td>
-                          <td>Michael</td>
-                          <td>R$ 45,00</td>
-                        <td class="right-icons"><a href=""><i class="fa fa-pencil-square-o"></i></a> <a href=""><i class="fa fa-trash"></i></a></td>
-                        </tr>
-                        <tr>
-                          <td>R4FSA472</td>
-                          <td>Donna</td>
-                            <td>R$ 45,00</td>
-                          <td class="right-icons"><a href=""><i class="fa fa-pencil-square-o"></i></a> <a href=""><i class="fa fa-trash"></i></a></td>
-                        </tr>
+                        
                       </tbody>
                     </table>
           

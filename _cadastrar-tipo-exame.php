@@ -33,21 +33,44 @@
                   <form id="demo-form2" data-parsley-validate class="form-horizontal form-label-left">
 
                     <div class="item form-group">
-                      <label class="col-form-label col-md-3 col-sm-3 label-align" for="setor">Código <span class="required">*</span>
+                      <label class="col-form-label col-md-3 col-sm-3 label-align" for="setor">Sigla <span class="required">*</span>
+                      </label>
+                      <div class="col-md-6 col-sm-6 ">
+                        <select class="select2_single form-control" tabindex="-1">
+                          <option></option>
+                          <option value="ct">CT</option>
+                          <option value="do">DO</option>
+                          <option value="mg">MG</option>
+                          <option value="rx">RX</option>
+                          <option value="us">US</option>
+                          <option value="rm">RM</option>
+                        </select>
+                      </div>
+                    </div>
+                     <div class="item form-group">
+                      <label class="col-form-label col-md-3 col-sm-3 label-align" for="setor">Procedimento <span class="required">*</span>
                       </label>
                       <div class="col-md-6 col-sm-6 ">
                         <input type="text" id="setor" required="required" class="form-control ">
                       </div>
                     </div>
                     <div class="item form-group">
-                      <label class="col-form-label col-md-3 col-sm-3 label-align" for="setor">Tipo de exame <span class="required">*</span>
+                      <label class="col-form-label col-md-3 col-sm-3 label-align" for="setor">Código <span class="required">*</span>
                       </label>
                       <div class="col-md-6 col-sm-6 ">
                         <input type="text" id="setor" required="required" class="form-control ">
                       </div>
                     </div>
+                   
                      <div class="item form-group">
-                      <label class="col-form-label col-md-3 col-sm-3 label-align" for="setor">Valor do Exame (R$)<span class="required">*</span>
+                      <label class="col-form-label col-md-3 col-sm-3 label-align" for="setor">Valor do Exame (R$) Popular<span class="required">*</span>
+                      </label>
+                      <div class="col-md-6 col-sm-6 ">
+                        <input type="number" id="setor" required="required" class="form-control ">
+                      </div>
+                    </div>
+                     <div class="item form-group">
+                      <label class="col-form-label col-md-3 col-sm-3 label-align" for="setor">Valor do Exame (R$) Particular<span class="required">*</span>
                       </label>
                       <div class="col-md-6 col-sm-6 ">
                         <input type="number" id="setor" required="required" class="form-control ">

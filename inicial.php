@@ -38,7 +38,7 @@
                           <h2>Agendamentos</h2>
                            <ul class="nav navbar-right panel_toolbox">
                               
-                              <li><a class="btn btn-outline-secondary btn-sm">AGENDAR <i class="fa fa-plus"></i></a>
+                              <li><a href="_cadastrar-requisicao.php" class="btn btn-outline-secondary btn-sm">AGENDAR <i class="fa fa-plus"></i></a>
                               </li>
                             </ul>
                           <div class="clearfix"></div>

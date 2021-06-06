@@ -38,6 +38,18 @@
                         <input type="text" class="form-control" disabled="disabled" placeholder="002">
                       </div>
                     </div>
+                  
+
+                      <div class="field item form-group">
+                          <label class="col-form-label col-md-3 col-sm-3  label-align">Data<span class="required">*</span></label>
+                          <div class="col-md-6 col-sm-6">
+                              <input class="form-control" class='date' type="date" name="date" required='required'></div>
+                      </div>
+                      <div class="field item form-group">
+                          <label class="col-form-label col-md-3 col-sm-3  label-align">Hora<span class="required">*</span></label>
+                          <div class="col-md-6 col-sm-6">
+                              <input class="form-control" class='time' type="time" name="time" required='required'></div>
+                      </div>
 
 
                     <div class="item form-group">

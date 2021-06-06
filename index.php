@@ -33,7 +33,7 @@
                 <main class="form-signin">
                   <form action="inicial.php">
                    <div class="lg-top"><img src="images/MedimagemNova.svg" width="180"></div>
-                    <h1 class="mb-3 fw-normal">Acessar <span> Ou <a href="criar-conta.php">Criar conta</a> | <a href="criar-medico.php">Sou médico</a></span></h1>
+                    <h1 class="mb-3 fw-normal">Acessar <span> Ou <a href="criar-conta.php">Criar conta</a> </span></h1>
                     <label for="inputEmail" >SEU E-MAIL</label>
                     <input type="email" id="inputEmail" class="form-control form-control-lg"  autofocus="">
                     <label for="inputPassword" id="blc-senha" >SENHA <span><a href="">esqueceu a senha?</a></span></label>
